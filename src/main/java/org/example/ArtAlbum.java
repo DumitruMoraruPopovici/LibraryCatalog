@@ -16,4 +16,9 @@ public class ArtAlbum extends Book {
         this.paperQuality = paperQuality;
         System.out.println(name + " has " + numOfPages + " pages and is a " + paperQuality + " Book");
     }
+
+    @Override
+    public String toString() {
+        return "ArtAlbum named " + name + ",has " + numOfPages + "no of pages and " + paperQuality + "paperquality";
+    }
 }

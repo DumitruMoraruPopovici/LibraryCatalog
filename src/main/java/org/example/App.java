@@ -21,22 +21,22 @@ public class App {
 /**
  * adding books to the library
  */
-        LibraryCatalog.addBook(book4.name);
-        LibraryCatalog.addBook(book2.name);
-        LibraryCatalog.addBook(book3.name);
-        LibraryCatalog.addBook(book1.name);
+        LibraryCatalog.addBook(book4);
+        LibraryCatalog.addBook(book2);
+        LibraryCatalog.addBook(book3);
+        LibraryCatalog.addBook(book1);
 
         System.out.println(books);
 /**
  * deleting a book from the library
  */
-        LibraryCatalog.deleteBook(book1.name);
+        LibraryCatalog.deleteBook(book1);
 
         System.out.println(books);
         /**
          * listing the books from the library
          */
-        LibraryCatalog.listBook(String.valueOf(books));
+        LibraryCatalog.listBook();
 
 
     }

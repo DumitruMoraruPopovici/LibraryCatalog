@@ -19,8 +19,7 @@ public class Book {
     public Book(String name, int numOfPages) {
         this.name = name;
         this.numOfPages = numOfPages;
-        System.out.println(name + " has " + numOfPages + " pages");
-
     }
+
 }
 

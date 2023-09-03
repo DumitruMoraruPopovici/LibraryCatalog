@@ -17,4 +17,11 @@ public class Novel extends Book {
         this.type = type;
         System.out.println(name + " has " + numOfPages + " pages and is a " + type + " Book");
     }
+
+    @Override
+    public String toString() {
+        return "This Novel is called" + name
+                + ", has no. of pages " + numOfPages +
+                " and is a " + type + "Book";
+    }
 }
